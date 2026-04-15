@@ -4,7 +4,7 @@ import './App.css'
 function App() {
   return (
     <main className="app">
-      <h1>User directory</h1>
+      <h1>Dummy change</h1>
       <UserList />
     </main>
   )
