@@ -15,4 +15,15 @@ public class UserController {
                 new User(2L, "Bob", "bob@example.com")
         );
     }
+
+    @GetMapping("/countries")
+    public List<String> listCountries() {
+        return List.of(
+                "United States",
+                "Canada",
+                "Japan",
+                "Germany",
+                "Australia"
+        );
+    }
 }
